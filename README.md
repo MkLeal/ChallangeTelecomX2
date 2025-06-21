@@ -5,8 +5,8 @@ Este projeto consiste na análise exploratória de dados para identificar os fat
 ## Sumário
 
 - [Introdução](#introdução)
-- [Limpeza e Tratamento de Dados](#limpeza-e-tratamento-de-dados)
-- [Análise Exploratória de Dados](#análise-exploratória-de-dados)
+- [Tratamento de Dados](#limpeza-e-tratamento-de-dados)
+- [Análise Exploratória](#análise-exploratória-de-dados)
 - [Conclusões e Insights](#conclusões-e-insights)
 - [Recomendações](#recomendações)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -15,7 +15,7 @@ Este projeto consiste na análise exploratória de dados para identificar os fat
 
 A evasão de clientes (churn) é um desafio significativo para empresas de telecomunicações. Compreender por que os clientes cancelam é fundamental para melhorar a satisfação, aumentar a retenção e garantir o crescimento sustentável. Esta análise explora um conjunto de dados de clientes da Telecom X para desvendar os principais motivadores do churn.
 
-## Limpeza e Tratamento de Dados
+## Tratamento de Dados
 
 Os dados foram obtidos de um arquivo JSON e processados utilizando a biblioteca Pandas. As principais etapas de limpeza e tratamento incluíram:
 
@@ -24,7 +24,7 @@ Os dados foram obtidos de um arquivo JSON e processados utilizando a biblioteca 
 - **Padronização de Nomes:** Nomes de colunas foram convertidos para minúsculas e espaços substituídos por underscores.
 - **Conversão de Tipos de Dados:** Colunas categóricas binárias (Yes/No, Male/Female) e a variável alvo Churn foram convertidas para representação numérica (1/0).
 
-## Análise Exploratória de Dados
+## Análise Exploratória
 
 A análise exploratória utilizou visualizações gráficas para identificar padrões e tendências. Abaixo estão alguns dos gráficos gerados:
 
