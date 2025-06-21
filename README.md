@@ -1,6 +1,7 @@
 # Análise de Evasão de Clientes (Churn) na Telecom X
 
-Este projeto consiste na análise exploratória de dados para identificar os fatores que levam os clientes da Telecom X a cancelar seus serviços. O objetivo é fornecer insights que possam ser utilizados para desenvolver estratégias eficazes de retenção de clientes.
+Este projeto consiste em uma análise exploratória de dados com o objetivo de identificar os fatores que levam os clientes da Telecom X a cancelar seus serviços. A intenção é fornecer insights acionáveis que auxiliem no desenvolvimento de estratégias eficazes de retenção de clientes.
+
 
 ## Sumário
 
@@ -28,37 +29,37 @@ Os dados foram obtidos de um arquivo JSON e processados utilizando a biblioteca 
 
 A análise exploratória utilizou visualizações gráficas para identificar padrões e tendências. Abaixo estão alguns dos gráficos gerados:
 
-### Distribuição de Clientes que Cancelaram
+### 📊  Distribuição de Clientes que Cancelaram
 
 Este gráfico mostra a proporção de clientes que cancelaram em relação ao total.
 
 ![Distribuição de Churn](https://github.com/linomar31/Telecom_X_Challenge/blob/main/gr%C3%A1ficos/cancelaram%20ou%20n%C3%A3o.png)
 
-### Distribuição de Cancelamento por Gênero
+### 📉 Cancelamento por Gênero
 
 Este gráfico compara a taxa de churn entre clientes masculinos e femininos.
 
 ![Churn por Gênero](https://github.com/linomar31/Telecom_X_Challenge/blob/main/gr%C3%A1ficos/genero.png)
 
-### Distribuição de Cancelamento por Tipo de Contrato
+### 🧾 Cancelamento por Tipo de Contrato
 
 Este gráfico ilustra como o tipo de contrato influencia a taxa de churn.
 
 ![Churn por Contrato](https://github.com/linomar31/Telecom_X_Challenge/blob/main/gr%C3%A1ficos/tipo_contrato.png)
 
-### Distribuição de Encargos Mensais por Cancelamento
+### 💸 Encargos Mensais por Churn
 
 Este histograma compara a distribuição dos encargos mensais para clientes que cancelaram e não cancelaram.
 
 ![Encargos Mensais por Churn](https://github.com/linomar31/Telecom_X_Challenge/blob/main/gr%C3%A1ficos/encargos_mensais.png)
 
-### Distribuição de Encargos Totais por Cancelamento
+### 💰 Encargos Totais por Churn
 
 Este histograma compara a distribuição dos encargos totais para clientes que cancelaram e não cancelaram.
 
 ![Encargos Totais por Churn](https://github.com/linomar31/Telecom_X_Challenge/blob/main/gr%C3%A1ficos/encargos_totais.png)
 
-### Distribuição de Tempo de Contrato por Cancelamento
+### ⏳ Tempo de Contrato por Churn
 
 Este histograma compara a distribuição do tempo de contrato (tenure) para clientes que cancelaram e não cancelaram.
 
@@ -66,11 +67,14 @@ Este histograma compara a distribuição do tempo de contrato (tenure) para clie
 
 ## Conclusões e Insights
 
-A análise revelou que os principais fatores associados ao churn na Telecom X incluem:
+A análise revelou que os principais fatores associados ao churn na Telecom X são:
 
-- **Contratos Mensais:** Clientes com contratos de curto prazo apresentam uma probabilidade significativamente maior de cancelar.
-- **Tempo de Contrato (Tenure):** Clientes novos com pouco tempo de contrato são mais suscetíveis ao churn.
-- **Encargos Mensais:** Clientes com encargos mensais mais altos tendem a ter uma maior probabilidade de churn.
+1.**Contratos Mensais:** Clientes com contratos de curto prazo têm maior probabilidade de cancelamento.
+
+2.**Tempo de Contrato (Tenure):** Clientes com pouco tempo na empresa são mais propensos a evadir.
+
+3.**Encargos Mensais Elevados:** Clientes que pagam valores mensais mais altos tendem a cancelar com mais frequência.
+
 
 ## Recomendações
 
