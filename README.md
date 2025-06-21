@@ -84,10 +84,10 @@ Com base nos insights, recomendamos as seguintes ações para a Telecom X:
 
 ## Tecnologias Utilizadas
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Python-
+- Pandas-
+- NumPy-
+- Matplotlib-
+- Seaborn-
 
 ---
